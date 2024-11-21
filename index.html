@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CSS Project</title>
+</head>
+<body>
+  <section id="author_section">
+  <!--author section-->
+    <header>
+      <h1>Kimberly Garrett</h1>
+      <p> November 19, 2024</p>
+    </header>
+  </section>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="user-info">
+        <img src="user-profile-pic.png" alt="User Icon" class="user-icon">
+        <p class="welcome">Welcome, Brock!</p>
+      </div>
+      <button class="compose-button">Compose</button>
+      <ul class="menu">
+        <li>Inbox (1)</li>
+        <li>Tagged</li>
+        <li>Important</li>
+        <li>Sent Mail</li>
+        <li>Drafts</li>
+        <li>Trash</li>
+      </ul>
+    </aside>
+
+    <div class="email-list">
+      <div class="search-bar">
+        <label for="search-bar" class="visually-hidden"></label>
+        <input id="search-bar" type="text" placeholder="Search For Emails">
+      </div>
+      <ul class="email-items">
+        <li class="email-item">
+          <p>LinkedIn</p>
+          <span>02:45 PM</span> 
+          <p>You have a new connection request.</p>
+        </li>
+        <li class="email-item active">
+          <p>Michael Scott Daily Quotes</p>
+          <span>Jul 3, 2020</span>
+          <p>I'm optimistic because everyday i get a.....</p>
+        </li>
+        <li class="email-item">
+          <p>Lemar Software</p>
+          <span>Feb 9, 2020</span>
+          <p>Learn how you can give us money by...</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="email-details">
+      <p><strong>To:</strong> taylor@lamarsoftware.io</p>
+      <p><strong>From:</strong> re-reply@theofficenbc.com</p>
+      <h2>Michael Scott Daily Quotes</h2>
+      <p>“Friends joke with one another. "Hey, your momma's dead." That’s what friends do.”</p>
+      <p>“It’s a good thing Russia doesn’t exist anymore.”</p>
+      <p>“You cheated on me? When I specifically asked you not to?”</p>
+      <p>“It just seems awfully mean. But sometimes, the ends justify the mean."</p>
+      <p>“Reverse psychology is an awesome tool. I don’t know if you guys know about it, but basically, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm!”</p>
+   
+    <form>
+      <textarea placeholder="Enter Message..."></textarea>
+      <button type="submit" class="send-button">Send Email</button>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
